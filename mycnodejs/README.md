@@ -123,6 +123,8 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 		    return config;
 		  };
 		`
+		##这段配置文件失效了，请参考ant 官网
+
 - 视图
 	- 视图结构划分
   - 1:将效果图划分为5大部分，在src->目录新建view,创建5个视图文件夹

@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrap{
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+/* // flex相关 */
+/* // 所有元素水平居中,垂直居中 */
+.fcc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-hc{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* // 行内所有元素居中 */
+.ifcc {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* // 垂直居中,两端对齐 */
+.flex-sb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* // 垂直居中,分散对齐 */
+.flex-sa {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* // 剩余空间分配 */
+.fg1 {
+    flex-grow: 1;
+}
+
+.fg2 {
+    flex-grow: 2;
+}
+
+/* // 纵向排列
+// 所有元素垂直居中 */
+.fdcc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* // 单个组合模式:
+// 进入弹性布局模式: */
+.flex {
+    display: flex;
+}
+
+/* // 默认情况下就是这个垂直靠左 */
+.fdc {
+    display: flex;
+    flex-direction: column;
+}
+
+/* // 原点 */
+.jc-start {
+    justify-content: flex-start;
+}
+
+.jc-end {
+    justify-content: flex-end;
+}
+
+/* // 水平居中 */
+.jc-center {
+    justify-content: center;
+}
+
+/* // 两端对齐 */
+.jc-sb {
+    justify-content: space-between;
+}
+
+/* // 水平分散 */
+.jc-sa {
+    justify-content: space-around;
+}
+
+/* // 垂直居中 */
+.ai-center {
+    align-items: center;
+}
+/* // 文本超出就隐藏并且显示省略号 */
+.hen{
+    overflow:hidden;
+    text-overflow:ellipsis; 
+    white-space:nowrap;
+}
+
+
+/* header */
+.top-header{
+  background-color: #282c34;
+  min-height: 64px;
+}
+.top-header span{
+  color: #ffffff;
+}
+.logotitle .txt{margin-left: 15px;font-size: 16px;}
+.headerDiver{}

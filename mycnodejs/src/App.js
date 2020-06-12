@@ -1,26 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './statics/style/App.css';
+import 'antd/dist/antd.css'
+import './statics/style/common.css'
+
 import RouterIndex from './router/index'
+
+import MainHeader from "./components/header/main-header"
+import MainFooter from "./components/footer/main-footer"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <RouterIndex/>
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="AppWrap">
+      <MainHeader/>
+      <RouterIndex/>
+      <MainFooter/>
     </div>
   );
 }
