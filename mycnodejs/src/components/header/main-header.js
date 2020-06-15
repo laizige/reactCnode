@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 class MainHeader extends Component {
   render() {
     return (
-      <Layout.Header className="top-header">
+      <Layout.Header className="top-header" theme="dark">
         <Row className="wrap">
           <Col xs={2} sm={4} md={6} lg={4} xl={6}>
             <div className="toplogo">
@@ -16,9 +16,9 @@ class MainHeader extends Component {
               </div>
             </div>
           </Col>
-          <Col xs={20} sm={16} md={18} lg={20} xl={18} className="flex">
+          <Col xs={20} sm={16} md={18} lg={20} xl={18} className="flex flex-hc">
             <Divider type="vertical"  className="headerDiver" />
-            <Menu mode="horizontal">
+            <Menu mode="horizontal" theme="dark">
               <Menu.Item>
                 <Link to="/index">首页</Link>
               </Menu.Item>
@@ -31,10 +31,11 @@ class MainHeader extends Component {
             </Menu>
           </Col>
         </Row>  
-       </Layout.Header> 
+       </Layout.Header>
     )
   }
 }
 
 
 export default  MainHeader
+

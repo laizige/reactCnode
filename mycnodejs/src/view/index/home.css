@@ -1,0 +1,7 @@
+.home_main .ant-menu-item-selected{
+    border-right: 3px solid #1890ff;
+  }
+.indexMenu li{margin-right: 0px;transition: 0.5s;}
+.indexMenu li:hover{background: #9cc9f3;color: #fff;}
+.homeRight{min-height: 800px;}
+.homeRight .indexList{margin-left: 15px;}

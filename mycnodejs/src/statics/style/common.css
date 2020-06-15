@@ -119,3 +119,8 @@
 }
 .logotitle .txt{margin-left: 15px;font-size: 16px;}
 .headerDiver{}
+
+
+/* footer */
+footer{background: #282c34;}
+footer p{padding: 50px;text-align: center;color: #ffffff;margin-bottom: 0;}
