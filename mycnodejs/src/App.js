@@ -2,6 +2,7 @@ import React from 'react';
 import './statics/style/App.css';
 import 'antd/dist/antd.css'
 import './statics/style/common.css'
+import "../node_modules/video-react/dist/video-react.css"; // import css
 
 import RouterIndex from './router/index'
 

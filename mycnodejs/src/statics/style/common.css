@@ -107,11 +107,15 @@
     text-overflow:ellipsis; 
     white-space:nowrap;
 }
+/* margin */
+.m-left15{margin-left: 15px;}
 
+/* font-size */
+.ft12{font-size: 12px;}
 
 /* header */
 .top-header{
-  background-color: #282c34;
+  background-color: #001529;
   min-height: 64px;
 }
 .top-header span{
@@ -124,3 +128,20 @@
 /* footer */
 footer{background: #282c34;}
 footer p{padding: 50px;text-align: center;color: #ffffff;margin-bottom: 0;}
+
+/* about */
+.about_box img{max-width:150px;}
+
+/* book */
+.bookMain h2{font-size: 24px;line-height: 40px;}
+
+/* 文章详情 */
+.detilUinfo .time{margin-top: 5px;}
+.detilUinfo a{margin-left: 15px;}
+.replacebox img{max-width: 500px;width: 100%;}
+
+/* 抖音 */
+.dyinfobox{display: flex;}
+.dyinfobox p{margin-bottom: 0;}
+.dyinfobox button{margin:0 30px;cursor: pointer;}
+

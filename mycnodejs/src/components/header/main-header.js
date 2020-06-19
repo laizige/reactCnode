@@ -8,7 +8,7 @@ class MainHeader extends Component {
     return (
       <Layout.Header className="top-header" theme="dark">
         <Row className="wrap">
-          <Col xs={2} sm={4} md={6} lg={4} xl={6}>
+          <Col xs={2} sm={4} md={8} lg={8} xl={8}>
             <div className="toplogo">
               <div className="logotitle flex-hc">
                 <RedditOutlined style={{ fontSize: '55px', color: '#ffffff' }}/>  
@@ -16,7 +16,7 @@ class MainHeader extends Component {
               </div>
             </div>
           </Col>
-          <Col xs={20} sm={16} md={18} lg={20} xl={18} className="flex flex-hc">
+          <Col xs={20} sm={16} md={14} lg={14} xl={14} className="flex flex-hc">
             <Divider type="vertical"  className="headerDiver" />
             <Menu mode="horizontal" theme="dark">
               <Menu.Item>
@@ -27,6 +27,9 @@ class MainHeader extends Component {
               </Menu.Item>
               <Menu.Item>
                 <Link to="/about">关于</Link>
+              </Menu.Item>
+              <Menu.Item>
+                <Link to="/Dyindex">抖音</Link>
               </Menu.Item>
             </Menu>
           </Col>

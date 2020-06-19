@@ -24,11 +24,17 @@ let linkData = `<a href="https://www.huoban.com/" target="_blank">
           <a href="http://www.jiguang.cn/" target="_blank">
             <img src="//dn-cnode.qbox.me/FijGJbij9GObh5AXw-Vyu5LGn08a">
           </a>
-          <a href="http://segmentfault.com/" target="_blank">
-            <img src="//o4j806krb.qnssl.com/public/images/temp/sf.png">
+          <a href="http://www.logosj.com/logo/5406.html" target="_blank">
+            <img src="//www.caexpo.org/uploadfile/2019/0910/20190910050134558.jpg">
           </a>
-          <a href="http://ionichina.com/" target="_blank">
-            <img src="//o4j806krb.qnssl.com/public/images/temp/ionichina.png">
+          <a href="https://www.sxl.cn/" target="_blank">
+            <img src="//static.cnodejs.org/FvtwcYi5K6qoFAIsUeIgTKGeB6lQ">
+          </a>
+          <a href="https://segmentfault.com/" target="_blank">
+            <img src="//static2.cnodejs.org/public/images/temp/sf.png">
+          </a>
+          <a href="http://www.logosj.com/logo/5989.html" target="_blank">
+            <img src="//cdn.logosj.com/wp-content/uploads/2015/06/1-1506291P649.gif">
           </a>`
 
 let data = [{

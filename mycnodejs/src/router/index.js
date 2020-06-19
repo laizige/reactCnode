@@ -7,6 +7,7 @@ import Book from '../view/book/index'
 import About from '../view/about/index'
 import User from '../view/user/index'
 import Details from '../view/details/index'
+import Dyindex from "../view//douyin/index" 
 
 class RouterIndex extends Component{
   render(){
@@ -24,7 +25,7 @@ class RouterIndex extends Component{
         <Route path="/about" component={About} />
         <Route path="/user" component={User} />
         <Route path="/details" component={Details} />
-      
+        <Route path="/Dyindex" component={Dyindex} />    
       </Switch>
     )
     

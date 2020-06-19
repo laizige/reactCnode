@@ -161,3 +161,62 @@ https://github.com/laizige/reactCnode.git
 
 
 git remote add origin git@github.com:git-ze/xxxx.git
+
+
+
+
+
+
+<video
+            id="video" 
+            // src={this.state.videoData.video.play_addr_lowbr.url_list[0]} 
+            src="https://api.amemv.com/aweme/v1/play/?video_id=v0200f9f0000brl13ftjfrmhhde5v1v0&line=1&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+            controls = "true"
+            poster="http://img.jj20.com/up/allimg/tx23/320420021029915.jpg" /*视频封面*/
+            preload="auto" 
+            webkit-playsinline="true" /*这个属性是ios 10中设置可以
+                              让视频在小窗内播放，也就是不是全屏播放*/  
+            playsinline="true"  /*IOS微信浏览器支持小窗内播放*/ 
+            x-webkit-airplay="allow" 
+            x5-video-player-type="h5"  /*启用H5播放器,是wechat安卓版特性*/
+            x5-video-player-fullscreen="true" /*全屏设置，
+                              设置为 true 是防止横屏*/
+            x5-video-orientation="portraint" //播放器支付的方向， landscape横屏，portraint竖屏，默认值为竖屏
+            style="object-fit:fill">
+          </video>
+
+<video preload="auto" type="video/mp4" className="video-player" src="http://txmov2.a.yximgs.com/upic/2020/02/07/14/BMjAyMDAyMDcxNDQ0NTdfNjkwMjYwNjE2XzIzMDc5NzUyNzAwXzFfMw==_b_B31328611b0d9220320708d7d3dc07b21.mp4">
+          </video>
+          
+          {/* <video id="theVideo" className="video-player" src="https://aweme.snssdk.com/aweme/v1/playwm/?video_id=v0200fa80000brj0kapum7luqc3te0tg&amp;ratio=720p&amp;line=0" preload="auto" type="video/mp4" width="100%" webkit-playsinline="true" playsinline="true" x5-video-player-type="h5" x5-video-player-fullscreen="portraint" onerror="window.VIDEO_FAILED=1"></video> */}
+          
+
+分享一个漂亮的小姐姐短视频播放网页源码
+https://www.12580sky.com/wangzhanyuanma/16403.html					
+具体功能看图，需要的自取，技术有限，不喜勿喷！
+
+Gayhub：
+https://github.com/JMWpower/xiaojiejie
+
+Gitee：
+https://gitee.com/JmwPower/xiaojiejie
+
+演示地址：
+http://xjj.jmwpower.top/
+
+
+
+API 接口
+https://www.12580sky.com/wangzhanyuanma/6523.html
+
+
+
+<!-- 播放器文档 -->
+
+https://video-react.js.org/components/player/
+https://www.cnblogs.com/cckui/p/12407936.html
+https://www.cnblogs.com/mryaohu/p/12254520.html
+
+
+短视频
+https://quanmin.hao222.com/sv?source=share-h5&pd=channel-na&vid=3261997361124101569

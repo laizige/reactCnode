@@ -1,11 +1,16 @@
 import React, { Component } from 'react'
 import logo from '../../statics/logo.svg';
+import PublicCard from '../../components/public_card';
+import data from '../about/data';
 
 class About extends Component {
   render() {
     return (
-      <div>
+      <div className="about_box">
+        <div className="wrap">
         <h1>About</h1>
+        <PublicCard data={data}></PublicCard>
+        </div>
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
